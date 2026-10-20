@@ -23,6 +23,7 @@ body    /*det är bakgrunden på hemsidan*/
     background-color: #85DAFF;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .rules-box
