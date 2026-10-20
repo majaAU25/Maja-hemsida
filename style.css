@@ -1,0 +1,147 @@
+
+#wrapper
+{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#meny
+{
+    display: flex;          /* Lägger allt på en rad horisontellt, jag har använt Ai för att den ska synas över hela skärmen */
+    align-items: center;    /* Centrerar logotyp och länkar vertikalt */
+    gap: 20px;              /* Skapar avstånd mellan MHL och länkarna */
+    background-color: #0F0F0F; /* Exempel på bakgrundsfärg */
+    padding: 10px 30px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
+body    /*det är bakgrunden på hemsidan*/
+{ 
+    background-color: #85DAFF;
+    margin: 0;
+    padding: 0;
+}
+
+.rules-box
+{
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;             /* Skapar utrymme inuti rutan */
+    margin: 10px 0;            /* Avstånd till element ovanför och under */
+    width: 200px;
+    margin-left: auto;
+    margin-right: 30px;
+
+}
+.rules-box h4
+{
+    margin: 0 0 10px 0;        /* Nollställer den stora marginalen */
+    font-size: 24px;
+}
+.rules-box ul {
+    margin: 0;                 /* Nollställer den stora marginalen */
+    padding-left: 20px;
+}
+
+#leftlog {
+    display: flex;
+    align-items: center;
+    gap: 10px;              /* Avstånd mellan bilden och texten MHL */
+}
+
+#leftlog a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;        /* Gör MHL större */
+    font-weight: bold;
+}
+
+#menylänkar {
+    display: flex;
+    gap: 15px;              /* Avstånd mellan varje menylänk */
+}
+#menylänkar a:hover
+{
+    text-decoration: underline ;
+    text-decoration-color: #ffffff;
+    text-underline-offset: 4px;
+}
+
+
+#menylänkar a 
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;        /* Standardstorlek för menylänkarna */
+}
+
+.table-box
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;   /* Centrerar dem vertikalt om de skulle ha olika höjd */
+    margin-bottom: 20px;   /* Skapar lite avstånd nedåt till nästa element */
+}
+.box-seasons, 
+.box-date
+{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    padding: 15px;
+}
+.mhl-table
+{
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 600px; /* Ser till att tabellen behåller sin form */
+    border-collapse: collapse;
+
+}
+.mhl-table th
+{
+    font-weight: bold;
+    padding: 12px 8px;
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    background-color: #0F0F0F;
+    color: #ffffff;
+}
+.mhl-table td
+{
+    padding: 12px 8px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5; 
+    color: #333333;
+}
+.mhl-table .highligth
+{
+    background-color: #f0f4f8;
+    font-weight: bold;
+}
+.mhl-table .align-left,
+.mhl-table .team-cell
+{
+    text-align: left;
+    font-weight: bold;
+}
+.table-container {
+    width: 100%;
+    overflow-x: auto;  /* Gör att bara tabellen går att skrolla i sidled om den inte får plats */
+}
+
+
+
+
